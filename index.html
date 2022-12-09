@@ -1,17 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-
+    <title>Uniduck Pics</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-
     <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
-
+    <!-- main css -->
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-
+    <!-- main -->
     <h1 style="text-align:center">The Uniduck Gallery</h1>
-
     <div ID="uniduck" data-nanogallery2='{
         "flickrAPIKey": "4e86bc0b6ffe30f04d7397379f616f37",
         "userID": "196105782@N07",
@@ -28,6 +30,14 @@
       }'>
 
     </div>
-    
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <a href="http://www.brandonslibrary.ca/">Brandon Brazeau</a>
+      </p>
+    </footer>
+    <script src="/js/app.js"></script>
   </body>
 </html>

@@ -1,0 +1,13 @@
+body {
+    background-color: darkslategrey;
+    color: antiquewhite;
+}
+
+h1 {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+a {
+    color: antiquewhite;
+}
